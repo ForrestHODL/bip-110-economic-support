@@ -74,10 +74,10 @@ const INFLUENCERS = [
   },
   {
     name: "Hodlonaut",
-    handle: "@MrHodl",
-    bip110: "no",
-    notes: "BIP110 = still born altcoin.",
-    source: { label: "Nostr/X posts", url: "https://x.com/MrHodl/status/2063540844905353281" }
+    handle: "@hodlonaut",
+    bip110: "prefer",
+    notes: "Re-endorsed BIP-110: 'Bitcoin is money, not data storage'; briefly withdrew support on Infinity Show then returned",
+    source: { label: "Nostr/X posts", url: "https://vanlett.com/hodlonaut" }
   },
   {
     name: "Jameson Lopp",
@@ -120,6 +120,13 @@ const INFLUENCERS = [
     bip110: "unknown",
     notes: "Apr 2026 X post warned of 'iatrogenic protocol changes' generally — did not name BIP-110; media inferred a link",
     source: { label: "X post (Apr 4, 2026)", url: "https://x.com/saylor/status/2040438683380146574" }
+  },
+  {
+    name: "MrHodl",
+    handle: "@MrHodl",
+    bip110: "no",
+    notes: "BIP110 = still born altcoin.",
+    source: { label: "Nostr/X posts", url: "https://x.com/MrHodl/status/2063540844905353281" }
   },
   {
     name: "Parman (Arman The Parman)",
