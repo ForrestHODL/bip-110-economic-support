@@ -75,9 +75,9 @@ const INFLUENCERS = [
   {
     name: "Hodlonaut",
     handle: "@MrHodl",
-    bip110: "prefer",
-    notes: "Re-endorsed BIP-110: 'Bitcoin is money, not data storage'; briefly withdrew support on Infinity Show then returned",
-    source: { label: "Nostr/X posts", url: "https://vanlett.com/hodlonaut" }
+    bip110: "no",
+    notes: "BIP110 = still born altcoin.",
+    source: { label: "Nostr/X posts", url: "https://x.com/MrHodl/status/2063540844905353281" }
   },
   {
     name: "Jameson Lopp",
@@ -246,7 +246,7 @@ const DEVELOPERS = [
   { name: "Warren Togami", aff: "Elements", segwit: "prefer", bip141: "prefer", bip148: "prefer", bip149: "acceptable", bip91: "", segwit2x: "", bip110: "unknown", source: null },
   { name: "Wladimir van der Laan", aff: "Core", segwit: "prefer", bip141: "prefer", bip148: "prefer", bip149: "acceptable", bip91: "acceptable", segwit2x: "no", bip110: "unknown", source: null },
   { name: "Thomas Voegtlin", aff: "Electrum", segwit: "prefer", bip141: "prefer", bip148: "prefer", bip149: "acceptable", bip91: "acceptable", segwit2x: "no", bip110: "unknown", source: null },
-  { name: 'Leo Wandersleb', aff: "Mycelium", segwit: "prefer", bip141: "prefer", bip148: "prefer", bip149: "acceptable", bip91: "weak", segwit2x: "no", bip110: "acceptable", source: { label: "Start9/Umbrel packaging", url: "https://bip110.org/howto" } },
+  { name: 'Leo Wandersleb', aff: "Mycelium", segwit: "prefer", bip141: "prefer", bip148: "prefer", bip149: "acceptable", bip91: "weak", segwit2x: "no", bip110: "no", source: { label: "Bitcoin prevents spam with fees. Period.", url: "https://x.com/LeoWandersleb/status/2026816261225947340" } },
   { name: "Pieter Wuille", aff: "Core", segwit: "prefer", bip141: "prefer", bip148: "", bip149: "", bip91: "", segwit2x: "no", bip110: "unknown", source: null }
 ];
 
